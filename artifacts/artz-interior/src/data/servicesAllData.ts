@@ -1,6 +1,3 @@
-const IMG = (slug: string) =>
-  `https://artinteriorz.com/wp-content/uploads/${slug}`;
-
 export const serviceCategoriesData = {
   label: "Areas of Expertise",
   heading: {
@@ -19,7 +16,7 @@ export const serviceCategoriesData = {
         "Mood Lighting & Color Palettes",
         "Personalised Decor Themes",
       ],
-      image: IMG("2025/05/Picsart_25-05-02_14-01-35-840-1024x1024.jpg"),
+      image: "/assets/portfolio-4.jpg",
     },
     {
       title: "Commercial Design",
@@ -31,7 +28,7 @@ export const serviceCategoriesData = {
         "Café & Hospitality Interiors",
         "Brand-centric Aesthetic Design",
       ],
-      image: IMG("2025/06/holl-3-1.png"),
+      image: "/assets/portfolio-1.jpg",
     },
     {
       title: "Hospitality Design",
@@ -43,7 +40,7 @@ export const serviceCategoriesData = {
         "Theme-Based Dining & Lounge Areas",
         "Lighting, Acoustics & Guest Experience",
       ],
-      image: IMG("2025/06/holl-1.png"),
+      image: "/assets/portfolio-2.jpg",
     },
     {
       title: "Landscape Design",
@@ -55,7 +52,7 @@ export const serviceCategoriesData = {
         "Hardscape & Softscape Planning",
         "Water Features & Lighting",
       ],
-      image: IMG("2025/12/BALCONY3-1-scaled.jpg"),
+      image: "/assets/portfolio-5.jpg",
     },
   ],
 };
@@ -64,42 +61,42 @@ export const servicesDetailData = [
   {
     title: "Interior Design",
     text: "At Art Interiorz, we believe that interior design is an art form that should reflect your unique style and personality. Our designs go beyond mere aesthetics — we create immersive environments that inspire and evoke emotions, whether it's your dream home, an office or a commercial space.",
-    image: IMG("2025/06/img4-2.png"),
+    image: "/assets/portfolio-1.jpg",
   },
   {
     title: "Modular Kitchen",
     text: "We provide custom-made modular kitchen solutions that maximise space efficiency while reflecting your aesthetic preferences. From compact apartment kitchens to spacious family kitchens, every element is tailored with premium materials and innovative design.",
-    image: IMG("2025/07/11.png"),
+    image: "/assets/portfolio-3.jpg",
   },
   {
     title: "Architectural Design & Planning",
     text: "We specialise in residential, commercial and institutional spaces that are visually stunning yet practical and sustainable. Our planning ensures smart space utilisation, regulatory compliance and seamless integration with interior design.",
-    image: IMG("2025/06/img2.png"),
+    image: "/assets/portfolio-5.jpg",
   },
   {
     title: "Space Planning & Layout Optimization",
     text: "Make the most of every square foot. Our space planning services analyse spatial requirements, circulation flow and furniture placement to create functional layouts that maximise efficiency and comfort.",
-    image: IMG("2025/06/image-2.png"),
+    image: "/assets/portfolio-2.jpg",
   },
   {
     title: "3D Visualization & Walkthroughs",
     text: "See it before you build it. Our high-quality 3D renderings and walkthroughs help you visualise every corner, texture and light play — making decisions easier and more confident.",
-    image: IMG("2025/06/3D-Insights-1.png"),
+    image: "/assets/portfolio-6.jpg",
   },
   {
     title: "Renovation & Remodeling",
     text: "Breathe new life into old spaces. Whether updating a single room or undertaking a full-scale renovation, we manage everything from design concepts to on-site execution, blending modern trends with timeless design.",
-    image: IMG("2025/06/Mask-group.png"),
+    image: "/assets/portfolio-4.jpg",
   },
   {
     title: "Retail Space",
     text: "Our retail interior designs are strategically crafted to attract attention, encourage engagement and reflect your brand identity. We blend functionality with visual appeal — for boutiques, showrooms and large stores alike.",
-    image: IMG("2025/06/holl-2.png"),
+    image: "/assets/portfolio-1.jpg",
   },
   {
     title: "Custom Furniture & Decor",
     text: "Add personality with pieces that tell your story. We design and curate custom furniture and decor that align with your space, theme and comfort — bespoke solutions where each item fits perfectly in size, style and spirit.",
-    image: IMG("2025/06/unit.png"),
+    image: "/assets/portfolio-3.jpg",
   },
 ];
 

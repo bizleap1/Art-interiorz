@@ -1,6 +1,3 @@
-const IMG = (slug: string) =>
-  `https://artinteriorz.com/wp-content/uploads/${slug}`;
-
 export type BlogPost = {
   slug: string;
   title: string;
@@ -37,7 +34,7 @@ export const blogData = {
       category: "Residential",
       readTime: "5 min read",
       date: "June 12, 2025",
-      image: IMG("2025/06/image-2.png"),
+      image: "/assets/portfolio-1.jpg",
     },
     {
       slug: "modular-kitchen-guide",
@@ -56,7 +53,7 @@ export const blogData = {
       category: "Kitchen",
       readTime: "7 min read",
       date: "May 28, 2025",
-      image: IMG("2025/07/11.png"),
+      image: "/assets/portfolio-3.jpg",
     },
     {
       slug: "home-renovation-nagpur",
@@ -75,7 +72,7 @@ export const blogData = {
       category: "Renovation",
       readTime: "6 min read",
       date: "April 18, 2025",
-      image: IMG("2025/06/Mask-group.png"),
+      image: "/assets/portfolio-4.jpg",
     },
     {
       slug: "hospitality-design-essentials",
@@ -93,7 +90,7 @@ export const blogData = {
       category: "Hospitality",
       readTime: "8 min read",
       date: "March 22, 2025",
-      image: IMG("2025/06/holl-1.png"),
+      image: "/assets/portfolio-2.jpg",
     },
     {
       slug: "3d-visualisation",
@@ -111,7 +108,7 @@ export const blogData = {
       category: "Process",
       readTime: "4 min read",
       date: "February 14, 2025",
-      image: IMG("2025/06/3D-Insights-1.png"),
+      image: "/assets/portfolio-5.jpg",
     },
     {
       slug: "interior-design-cost-nagpur",
@@ -130,7 +127,7 @@ export const blogData = {
       category: "Guides",
       readTime: "9 min read",
       date: "January 30, 2025",
-      image: IMG("2025/07/12.png"),
+      image: "/assets/portfolio-6.jpg",
     },
   ] as BlogPost[],
 };
