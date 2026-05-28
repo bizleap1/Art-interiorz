@@ -60,7 +60,7 @@ export default function PortfolioPage() {
               {filtered.map((item, i) => (
                 <motion.button
                   layout
-                  key={item.src}
+                  key={item.id}
                   onClick={() => setPreview(item)}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

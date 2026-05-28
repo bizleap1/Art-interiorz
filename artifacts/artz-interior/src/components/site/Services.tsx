@@ -5,12 +5,12 @@ import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 
 const serviceImages = [
-  "https://artinteriorz.com/wp-content/uploads/2025/06/img4-2.png",
-  "https://artinteriorz.com/wp-content/uploads/2025/07/11.png",
-  "https://artinteriorz.com/wp-content/uploads/2025/06/Mask-group.png",
-  "https://artinteriorz.com/wp-content/uploads/2025/06/bed-room.png",
-  "https://artinteriorz.com/wp-content/uploads/2025/06/holl-1.png",
-  "https://artinteriorz.com/wp-content/uploads/2025/12/LIVING-ROOM1.1-scaled.jpg",
+  "/assets/portfolio-1.jpg",
+  "/assets/portfolio-3.jpg",
+  "/assets/portfolio-5.jpg",
+  "/assets/portfolio-2.jpg",
+  "/assets/portfolio-4.jpg",
+  "/assets/portfolio-6.jpg",
 ];
 
 export function Services() {

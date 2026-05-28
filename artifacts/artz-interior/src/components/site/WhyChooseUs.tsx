@@ -13,31 +13,31 @@ import { Link } from "wouter";
 const reasons = [
   {
     label: "Interior Excellence",
-    image: "https://artinteriorz.com/wp-content/uploads/2025/06/img4-2.png",
+    image: "/assets/portfolio-1.jpg",
     icon: Star,
     is3D: false,
   },
   {
     label: "Guaranteed Satisfaction",
-    image: "https://artinteriorz.com/wp-content/uploads/2025/07/11.png",
+    image: "/assets/portfolio-3.jpg",
     icon: BadgeCheck,
     is3D: false,
   },
   {
     label: "Modular Storage",
-    image: "https://artinteriorz.com/wp-content/uploads/2025/06/Mask-group.png",
+    image: "/assets/portfolio-5.jpg",
     icon: Layers,
     is3D: false,
   },
   {
     label: "3D Insights",
-    image: "https://artinteriorz.com/wp-content/uploads/2025/06/bed-room.png",
+    image: "/assets/portfolio-2.jpg",
     icon: Box,
     is3D: true,
   },
   {
     label: "Smart Pricing",
-    image: "https://artinteriorz.com/wp-content/uploads/2025/06/holl-1.png",
+    image: "/assets/portfolio-4.jpg",
     icon: IndianRupee,
     is3D: false,
   },
@@ -154,13 +154,13 @@ export function WhyChooseUs() {
           <Reveal className="lg:col-span-5">
             <div className="grid grid-cols-3 gap-3 h-[340px]">
               <div className="col-span-1 overflow-hidden rounded-lg">
-                <img src="https://artinteriorz.com/wp-content/uploads/2025/06/img4-2.png" alt="Interior" className="h-full w-full object-cover" />
+                <img src="/assets/portfolio-6.jpg" alt="Interior" className="h-full w-full object-cover" />
               </div>
               <div className="col-span-1 overflow-hidden rounded-lg mt-8">
-                <img src="https://artinteriorz.com/wp-content/uploads/2025/06/holl-1.png" alt="Living room" className="h-full w-full object-cover" />
+                <img src="/assets/portfolio-1.jpg" alt="Living room" className="h-full w-full object-cover" />
               </div>
               <div className="col-span-1 overflow-hidden rounded-lg">
-                <img src="https://artinteriorz.com/wp-content/uploads/2025/06/bed-room.png" alt="Bedroom" className="h-full w-full object-cover" />
+                <img src="/assets/portfolio-2.jpg" alt="Bedroom" className="h-full w-full object-cover" />
               </div>
             </div>
           </Reveal>

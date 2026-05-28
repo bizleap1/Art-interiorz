@@ -1,6 +1,3 @@
-const CDN = (slug: string) =>
-  `https://artinteriorz.com/wp-content/uploads/${slug}`;
-
 export type ProjectCategory = "Residential" | "Hospitality" | "Kitchen" | "Renovation";
 
 export type Project = {
@@ -22,7 +19,7 @@ export const portfolioData = {
   categories: ["All", "Residential", "Hospitality", "Kitchen", "Renovation"] as const,
   projects: [
     {
-      img: CDN("2025/12/LIVING-ROOM1.1-scaled.jpg"),
+      img: "/assets/portfolio-1.jpg",
       title: "Sterling Living Room",
       category: "Residential" as ProjectCategory,
       location: "Manish Nagar, Nagpur",
@@ -30,14 +27,14 @@ export const portfolioData = {
       span: "md:row-span-2",
     },
     {
-      img: CDN("2025/07/11.png"),
+      img: "/assets/portfolio-3.jpg",
       title: "Ivory Modular Kitchen",
       category: "Kitchen" as ProjectCategory,
       location: "Somalwada, Nagpur",
       description: "An L-shaped modular kitchen with premium quartz countertops and brushed brass fittings.",
     },
     {
-      img: CDN("2025/06/holl-1.png"),
+      img: "/assets/portfolio-4.jpg",
       title: "Grand Hotel Lobby",
       category: "Hospitality" as ProjectCategory,
       location: "Civil Lines, Nagpur",
@@ -45,21 +42,21 @@ export const portfolioData = {
       span: "md:row-span-2",
     },
     {
-      img: CDN("2025/12/BEDROOM1.1-scaled.jpg"),
+      img: "/assets/portfolio-2.jpg",
       title: "Master Bedroom Suite",
       category: "Residential" as ProjectCategory,
       location: "Shilpa Nagar, Nagpur",
       description: "A serene master bedroom with panelled walls, mood lighting and custom wardrobe design.",
     },
     {
-      img: CDN("2025/06/Mask-group.png"),
+      img: "/assets/portfolio-5.jpg",
       title: "Modern Home Renovation",
       category: "Renovation" as ProjectCategory,
       location: "Dharampeth, Nagpur",
       description: "A full-home renovation that blends contemporary design with the character of an older Nagpur bungalow.",
     },
     {
-      img: CDN("2025/06/holl-3-1.png"),
+      img: "/assets/portfolio-6.jpg",
       title: "The Arora Dining Room",
       category: "Hospitality" as ProjectCategory,
       location: "Wardha Road, Nagpur",

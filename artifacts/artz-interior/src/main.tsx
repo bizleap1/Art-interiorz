@@ -31,7 +31,7 @@ setMeta("og:type", "website", true);
 setMeta("og:title", "Art Interiorz — Best Interior Designer in Nagpur", true);
 setMeta("og:description", "Full-service interior design studio in Nagpur. Residential, hospitality, modular kitchens & turnkey projects.", true);
 setMeta("og:url", "https://artinteriorz.com", true);
-setMeta("og:image", "https://artinteriorz.com/wp-content/uploads/2025/06/img2.png", true);
+setMeta("og:image", "/opengraph.jpg", true);
 
 setMeta("twitter:card", "summary_large_image");
 setMeta("twitter:title", "Art Interiorz — Best Interior Designer in Nagpur");
